@@ -10,7 +10,7 @@ source:
   sha256: 42d4dfd17ed186745117cfd427023eb81effff3832bab09067823492b6b982e7
 
 build:
-  number: 1
+  number: 2
   skip: true  # [not linux]
 
 requirements:
@@ -25,6 +25,7 @@ requirements:
     - xz
     - lz4-c
     - lzo
+    - zstd
 
 test:
   commands:
