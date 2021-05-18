@@ -19,7 +19,7 @@ requirements:
     - pkg-config
     - make
   host:
-    - libfuse >=3
+    - libfuse 3.*
     - zlib
     - xz
     - lz4-c
