@@ -10,7 +10,7 @@ source:
   sha256: aa52460559e0d0b1753f6b1af5c68cfb777ca5a13913285e93f4f9b7aa894b3a
 
 build:
-  number: 0
+  number: 1
   skip: true  # [not linux]
 
 requirements:
@@ -19,7 +19,7 @@ requirements:
     - pkg-config
     - make
   host:
-    - libfuse 2.*
+    - libfuse >=3
     - zlib
     - xz
     - lz4-c
