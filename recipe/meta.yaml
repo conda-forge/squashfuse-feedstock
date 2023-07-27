@@ -1,5 +1,5 @@
 {% set name = "squashfuse" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/vasi/squashfuse/releases/download/{{ version }}/squashfuse-{{ version }}.tar.gz
-  sha256: e8eea1b013b41d0a320e5a07b131bc70df14e6b3f2d3a849bdee66d100186f4f
+  sha256: 01f2f9639c7c5c4978efe96ba685935b8f6c9e5a7afe5e8fb21ec8b09df49278
 
 build:
   number: 0
