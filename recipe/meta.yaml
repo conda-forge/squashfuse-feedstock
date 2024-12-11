@@ -10,7 +10,7 @@ source:
   sha256: 54e4baaa20796e86a214a1f62bab07c7c361fb7a598375576d585712691178f5
 
 build:
-  number: 1
+  number: 2
   skip: true  # [not linux]
 
 requirements:
@@ -22,7 +22,7 @@ requirements:
   host:
     - libfuse 3.*
     - zlib
-    - xz
+    - liblzma-devel
     - lz4-c
     - lzo
     - zstd
